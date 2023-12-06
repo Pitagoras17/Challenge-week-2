@@ -1,6 +1,7 @@
 * {
     background-color: rgb(188, 188, 188);
     font-family: Arial, Helvetica, sans-serif;
+    border: 1em;
 }
 
 header {
@@ -20,6 +21,16 @@ nav a {
     font-style: italic;
 }
 
+body {
+    display: flex;
+    flex: wrap;
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+}
+
 main {
     display: flex;
     flex-flow: wrap;
@@ -36,6 +47,12 @@ aside {
 }
 
 #avatar {
-    flex: 0 0 300px;
     border-style: solid;
+    padding: 0.5em;
+    margin: 0.5em;
+    align-items: center;
+}
+
+#avatar img {
+    width: 25%;
 }
