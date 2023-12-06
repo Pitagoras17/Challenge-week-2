@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(188, 188, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+
+nav a {
+    padding: 1em 1.5em;
+    font-size: 12;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap;
+}
+
+section {
+    display: flex;
+    flex-flow: wrap;
+}
+
+aside {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+#avatar {
+    flex: 0 0 300px;
+    border-style: solid;
+}
